@@ -1,4 +1,6 @@
 import Tasks from "./components/Tasks"
+import './index.css'
+
 
 function App(){
   // State (ESTADO) de um componente
@@ -6,7 +8,7 @@ function App(){
   
   return(
     <div>
-      <h1>Gerenciador de tarefas</h1>
+      <h1 className="text-red-500">Gerenciador de tarefas</h1>
       <Tasks/>
     </div>
   )
